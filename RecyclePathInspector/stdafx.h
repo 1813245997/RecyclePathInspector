@@ -1,0 +1,17 @@
+#pragma once
+#include <windows.h>
+#include <filesystem>
+#include <iostream>
+#include <chrono>
+#include <iomanip>
+#include <fcntl.h>
+#include <corecrt_io.h>
+#include <unordered_set>
+#include <fstream>
+#include <codecvt>
+#include <locale>
+#include "i_file_record.h"
+#include "file_meta.h"
+#include "time_utils.h"
+#include "i_file_parser.h"
+#include "recycle_scanner.h"
